@@ -1,0 +1,12 @@
+version: 1
+sequences:
+  - protein:
+      id: A
+      sequence: MAKVQLQQSGGGAVQTGGSLKLTCLASGNTASIRAMGWYRRAPGKQREWVASLTTTGTADYGDFVKGRFTISRDNANNAATLQMDSLKPEDTAVYYCNADGRRFDGARWREYESWGQGTQVTISSAAALEHHHHHH
+constraints:
+  - contact:
+      token1: [A, 17]
+      token2: [A, 136]
+      max_distance: 16.0
+      force: True
+
