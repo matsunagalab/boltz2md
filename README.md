@@ -1,6 +1,7 @@
 ## from Boltz-2 to MD
 
 ```
+git clone https://github.com/matsunagalab/boltz2md.git
 uv venv --python=python3.11
 source .venv/bin/activate
 uv pip install boltz -U
